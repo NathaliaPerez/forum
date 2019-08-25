@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "009ffcf7-e8f6-49c4-9b6d-fb608dd88da8",
+		"name": "apis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/topicos/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/topicos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topicos",
+						"1"
+					]
+				},
+				"description": "Deletando registro"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/topicos/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/topicos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topicos",
+						"1"
+					]
+				},
+				"description": "Buscando registro"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/topicos/1",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"titulo\":\"atualizando\",\n\t\"mensagem\":\"texto2 mensagem\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/topicos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topicos",
+						"1"
+					]
+				},
+				"description": "Buscando registro"
+			},
+			"response": []
+		}
+	]
+}
